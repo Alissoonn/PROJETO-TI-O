@@ -4,9 +4,10 @@ body{
     background-color: black;
 }
 
-  div.central {
-      display: flex;
-  }
+*{
+    margin: 0px;
+    padding: 0px;
+}
   
   div.cabecalho {
       display: flex;
@@ -15,23 +16,33 @@ body{
       height: 100px;
   }
 
-  hgroup {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    gap: 10px;
-    background-color: #2D3F7B;
-}
-
 h1{
     text-align: center;
     color: white;
     background-color: #2D3F7B;
-    
+    text-shadow: 2px 2px 2px black;
+    font-size: 60px;
 }
 
-h3{
+/*
+ a.esquerda{
+    font-size: 20px;
     background-color: #2D3F7B;
-    padding-left: 10px;
     color: white;
+    text-align: center;
+    padding: 15px;
+}
+*/
+
+nav{
+    background-color: #2D3F7B;
+    padding: 10px;
+    margin: 15px -2px;
+    text-align: center;
+}
+
+nav > a{
+    color: white;
+    padding: 10px;
+    text-decoration: solid;
 }
